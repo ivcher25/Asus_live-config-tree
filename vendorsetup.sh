@@ -1,0 +1,3 @@
+aadd_lunch_combo zb501kl-user
+add_lunch_combo zb501kl-userdebug
+add_lunch_combo zb501kl-eng

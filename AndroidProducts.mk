@@ -1,0 +1,2 @@
+PRODUCT_MAKEFILES := \
+$(LOCAL_DIR)/WW_Phone.mk

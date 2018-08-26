@@ -1,0 +1,24 @@
+# system.prop for Asus zb501kl
+#
+
+#RIL
+#rild.libpath=/system/lib/libreference-ril.so
+rild.libpath=/vendor/lib/libril-qc-qmi-1.so
+rild.libargs=-d /dev/smd0
+
+
+#LCD
+ro.sf.lcd_density=320
+
+
+ro.adb.secure=0
+ro.secure=0
+
+dalvik.vm.isa.arm.variant=krait
+dalvik.vm.isa.arm.features=div
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+ro.sf.lcd_density=320
+persist.sys.usb.config=mass_storage,adb
+ro.opengles.version=3.0
+
